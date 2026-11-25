@@ -1,0 +1,9 @@
+project_id = "webhoctap"
+
+[functions.pdf-url]
+# The handler validates the bearer with Supabase Auth and then checks owner access.
+verify_jwt = false
+
+[functions.tutor-feedback]
+# The handler validates the bearer with Supabase Auth and then checks owner access.
+verify_jwt = false
